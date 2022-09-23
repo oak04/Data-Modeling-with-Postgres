@@ -49,7 +49,7 @@ artist_table_create = ("""
 CREATE TABLE IF NOT EXISTS artists
 (
 artist_id varchar PRIMARY KEY NOT NULL,
-name varchar NOT NULL, 
+name varchar, 
 location varchar, 
 latitude decimal, 
 longitude decimal
